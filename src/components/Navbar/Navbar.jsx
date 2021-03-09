@@ -5,7 +5,7 @@ import { ShoppingCart } from '@material-ui/icons'
 import Logo from '../../assets/cart.png'
 import useStyles from './styles'
 
-const Navbar= () => {
+const Navbar = () => {
     const classes = useStyles()
 
     return (
@@ -24,7 +24,7 @@ const Navbar= () => {
                         </IconButton>
                     </div>
                 </Toolbar>
-            </AppBar>  
+            </AppBar>
         </>
     )
 }
